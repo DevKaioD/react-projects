@@ -3,17 +3,23 @@ import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/welcome';
 import Hello from './components/hello';
+import Message from './components/message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Kaio" />
-      <Greet name="Sammy" />
-      <Greet name="Rubens" />
-      <Greet name="Tailan" />
-      <Greet name="Jovito" />
-      { /*<Welcome />
-      <Hello />*/ }
+      <Message />
+      { /*
+      <Greet name="Kaio" nickname="Kai Caçimba">
+        <p>This is a children</p>
+      </Greet>
+      <Greet name="Sammy" nickname="Sammyamy"/>
+      <Greet name="Rubens" nickname="Rubes"/>
+      <Greet name="Tailan" nickname="Colombiano"/>
+      <Greet name="João Vitor" nickname="Jovi"/>
+      <Welcome />
+      <Hello />*/ 
+      }
     </div>
   );
 }
