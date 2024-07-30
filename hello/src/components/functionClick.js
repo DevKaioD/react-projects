@@ -3,7 +3,7 @@ import React from 'react'
 function functionClick() {
   return (
     <div>
-        <button>Click</button>
+        <button>Click here!</button>
     </div>
   )
 }

@@ -1,18 +1,17 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/welcome';
 import Hello from './components/hello';
 import Message from './components/message';
 import Counter from './components/counter';
-import functionClick from './components/functionClick';
-import { Component } from 'react';
+import FunctionClick from './components/functionClick';
 
 class App extends Component {
   render() {
     return (
     <div className="App">
-      <functionClick />
+      <FunctionClick />
       {/*<Counter />
       <Message />    
       <Hello />
