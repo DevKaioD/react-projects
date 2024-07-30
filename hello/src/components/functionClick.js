@@ -1,9 +1,12 @@
 import React from 'react'
 
 function functionClick() {
-  return (
+    function clickHandler(){
+        console.log("button has been clicked")
+    }
+    return (
     <div>
-        <button>Click here!</button>
+        <button onClick={clickHandler}>Click here!</button>
     </div>
   )
 }
