@@ -5,26 +5,22 @@ import Welcome from './components/welcome';
 import Hello from './components/hello';
 import Message from './components/message';
 import Counter from './components/counter';
+import functionClick from './components/functionClick';
+import { Component } from 'react';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    return (
     <div className="App">
-      <Counter />
-      
-      { /*
-      <Message />
-      <Greet name="Kaio" nickname="Kai Caçimba">
-        <p>This is a children</p>
-      </Greet>
-      <Greet name="Sammy" nickname="Sammyamy"/>
-      <Greet name="Rubens" nickname="Rubes"/>
-      <Greet name="Tailan" nickname="Colombiano"/>
-      <Greet name="João Vitor" nickname="Jovi"/>
-      <Welcome />
-      <Hello />*/
-      }
+      <functionClick />
+      {/*<Counter />
+      <Message />    
+      <Hello />
+      <Welcome name="Sammy" nickname="Sammyamy"/>
+      <Greet name="Kaio" nickname="Kai Caçimba" />*/}
     </div>
   );
+  }
 }
 
 export default App;
