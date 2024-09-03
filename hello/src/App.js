@@ -6,12 +6,14 @@ import Hello from './components/hello';
 import Message from './components/message';
 import Counter from './components/counter';
 import FunctionClick from './components/functionClick';
+import ClassClick from './components/classClick';
 
 class App extends Component {
   render() {
     return (
     <div className="App">
       <FunctionClick />
+      <ClassClick />
       {/*<Counter />
       <Message />    
       <Hello />
